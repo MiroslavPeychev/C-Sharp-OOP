@@ -4,8 +4,6 @@ using PlayersAndMonsters.Repositories;
 
 namespace PlayersAndMonsters.Core.Factories.Contracts
 {
-   
-
     public class PlayerFactory : IPlayerFactory
     {
         public IPlayer CreatePlayer(string type, string username)

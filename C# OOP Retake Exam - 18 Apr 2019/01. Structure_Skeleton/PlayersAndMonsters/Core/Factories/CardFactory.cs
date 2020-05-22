@@ -11,7 +11,7 @@
     {
         public ICard CreateCard(string type, string name)
         {
-            return null;//not implemented
+            return null;//not implemented ne zabravqi da go napishesh
         }
     }
 }
