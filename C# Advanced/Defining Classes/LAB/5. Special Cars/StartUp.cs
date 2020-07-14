@@ -17,6 +17,7 @@
             {
                 Tire[] tiresOfOneCars = new Tire[4];
                 string[] inputTire = input.Split();
+
                 int yearFirstTire = int.Parse(inputTire[0]);
                 double pressureFirstTire = double.Parse(inputTire[1]);
                 Tire firstTire = new Tire(yearFirstTire, pressureFirstTire);
