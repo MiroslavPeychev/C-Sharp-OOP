@@ -36,7 +36,7 @@ namespace PlayersAndMonsters
         {
             get
             {
-                return this.Level;
+                return this.level;
             }
             private set
             {
