@@ -11,7 +11,7 @@
 
             try
             {
-                Person child = new Person(name, age);
+                Child child = new Child(name, age);
                 Console.WriteLine(child);
             }
             catch (Exception ex)
