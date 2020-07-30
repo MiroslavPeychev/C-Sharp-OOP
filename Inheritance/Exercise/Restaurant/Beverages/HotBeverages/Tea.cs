@@ -1,6 +1,6 @@
 ﻿namespace Restaurant.Beverages.HotBeverages
 {
-    public class Tea : HotBeverages
+    public class Tea : HotBeverage
     {
         public Tea(string name, decimal price, double mililiters)
             : base(name, price, mililiters)

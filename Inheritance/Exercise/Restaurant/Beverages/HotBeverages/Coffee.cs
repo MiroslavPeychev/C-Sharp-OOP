@@ -2,7 +2,7 @@
 
 namespace Restaurant.Beverages.HotBeverages
 {
-    public class Coffee : HotBeverages
+    public class Coffee : HotBeverage
     {
         private const double CoffeeMililiters = 50;
         private const decimal CoffeePrice = 3.5m;
