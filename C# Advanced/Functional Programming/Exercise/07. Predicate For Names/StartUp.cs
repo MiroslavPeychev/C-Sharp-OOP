@@ -1,12 +1,23 @@
-﻿using System;
-
-namespace _07._Predicate_For_Names
+﻿namespace _07._Predicate_For_Names
 {
-    class Program
+    using System;
+    using System.Linq;
+
+    public class StartUp
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            int length = int.Parse(Console.ReadLine());
+
+            Func<string, bool> checkLength = n => n.Length <= length;
+
+            Action<string> print = p => Console.WriteLine(p);
+
+            Console.ReadLine()
+                .Split()
+                .Where(checkLength)
+                .ToList()
+                .ForEach(print);
         }
     }
 }
