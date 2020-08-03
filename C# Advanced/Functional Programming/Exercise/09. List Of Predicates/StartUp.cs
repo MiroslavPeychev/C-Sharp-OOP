@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Collections.Generic;
 
-    public class Program
+    public class StartUp
     {
         public static void Main()
         {
